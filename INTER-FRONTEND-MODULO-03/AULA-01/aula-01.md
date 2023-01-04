@@ -1,4 +1,4 @@
-## Introdução ao Scrum
+## Módulo I | Aula 01 - Introdução ao Scrum
 
 ### Desafios do desenvolvimento de software
 Objetivos de negócio -> Requisitos -> Processo de Desenvolvimento.
@@ -14,7 +14,19 @@ O Principio de pareto também se aplica ao desenvolvimento de software, onde 20%
 
 **Tradicional (Waterfall):** Só permite que o projeto avance quando uma fase está inteiramente completa.
 
+- Requirement (requirement doc, prepare use cases)
+- Design (software architecture, map the stackholders)
+- Implementation (construct the software, data storage & retrieval)
+- Verification (install, test and debug)
+- Maintenance (check erros, optmize capatibilities)
+
 **Ágil:** Software construido por partes (incremental) e cada parte executa-se em um ciclo (iterativo)
+
+- Requisitos
+- Análise
+- Construção
+- Testes
+- Liberação
 
 #### Tradicional
 - Escopo definido na fase inicial do projeto;
@@ -58,4 +70,31 @@ O que é ser Ágil?
 - As tarefas são do time e todos são responsáveis;
 - Forte comprometimento com os resultados;
 
+### Exercício final - Módulo I - Aula 01
+#### 1) Qual característica de um projeto ágil?
 
+a) Escopo definido na fase inicial do projeto
+
+b) Escopo definido ao longo do projeto
+
+c) Resistente à mudanças
+
+d) Aumento de pessoas para que o projeto seja rápido
+
+e) Cliente paga mais caro para o projeto seja mais rápido
+
+Resposta: B
+
+#### 2) Quais são os pilares do SCRUM?
+
+a) Desenvolvedores e Gerente
+
+b) Processos e Mudanças
+
+c) Adaptação, Transparência e Inspeção
+
+d) Comunicação e Status Report
+
+e) Risco, Escopo e Custos
+
+Resposta: C

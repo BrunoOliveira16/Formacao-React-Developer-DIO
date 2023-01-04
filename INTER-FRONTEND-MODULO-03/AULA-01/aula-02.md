@@ -1,4 +1,4 @@
-## Papéis e responsabilidades de cada um do time
+## Módulo I | Aula 02 - Papéis e responsabilidades de cada um do time
 
 ### Papéis e Responsabilidades
 - Product Owner (PO);
@@ -23,4 +23,39 @@
 #### Time de Desenvolvimento (DEV)
 - Possui habilidades suficientes para desenvolver, testar, criar e desenhar, ou seja, tudo que for necessário para entregar o software funcionando.
 
+### Exercício final - Módulo I - Aula II
+#### 1) Quem é o responsável por priorizar o Backlog?
 
+a) Scrum Master
+
+b) Time DEV
+
+c) Área de Negócios
+
+d) Product Owner
+
+Resposta: D
+
+#### 2) Quem é o responsável por garantir que o time utilize da melhor forma o SCRUM?
+
+a) Scrum Master
+
+b) Time DEV
+
+c) Área de Negócios
+
+d) Product Owner
+
+Resposta: A
+
+#### 3) Quem é o responsável por desenhar, construir e entregar o software funcionando?
+
+a) Scrum Master
+
+b) Time DEV
+
+c) Área de Negócios
+
+d) Product Owner
+
+Resposta: B
