@@ -1,0 +1,1 @@
+# 📌 **Convertendo o Projeto de JavaScript para TypeScript**

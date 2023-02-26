@@ -1,19 +1,24 @@
-## 📝 BOOTCAMP INTER FRONTEND DEVELOPER - DIO._(Digital Innovation One)
-Este repositório trata-se dos conteúdos do bootcamp da DIO em desenvolvimento em Front-end com JavaScript, TypeScript, React, SQL server e Node.js.
+# 📌 **Formação React Developer - DIO**
 
-## 📚 Descrição
-O Bootcamp consiste nos módulos:
-- Lógica de Programação Essencial;
-- Aprenda o que são Estrutura de Dados e Algoritmos;
-- Projetos ágeis com SCRUM;
-- Introdução a Criação de Websites com HTML5 e CSS3;
-- Construindo páginas para internet com Bootstrap;
-- Instalação e Configuração do Visual Studio Code;
+<img src="./assets/logo.webp" width="70" alt="Icone do Bootcamp react Developer"><img src="./assets/html.svg" width="70" alt="Icone HTML5"><img src="./assets/css.svg" width="70" alt="Icone CSS3"><img src="./assets/javascript.svg" width="70" alt="Icone JavaScript"><img src="./assets/react.svg" width="70" alt="Icone React"><img src="./assets/typescript.svg" width="70" alt="Icone TypeScript">
 
-em desenvolvimento...
+Formação React developer da trilha de Front-End da DIO.
 
-## 💡 Objetivo
-Desenvolver habilidades em Html, css, bootstrap, JavaScript, typescript, React, sql server e node.js.
+- Carga horária: 34h
+- Desafios de Projeto: 5
+- Desafios de Código: 10
+
+<br>
+
+## 📎 **Sumário**
+
+- **Módulo 01:** Fundamentos do React;
+- **Módulo 02:** Conceitos Básicos da Biblioteca;
+- **Módulo 03:** Ampliando o Conhecimento em React;
+- **Módulo 04:** React com Typescript;
+- **Módulo 05:** Conceitos Avançados do React;
+
+<br>
 
 ## 🙋🏻‍♂️ Autor
 Bruno Oliveira
