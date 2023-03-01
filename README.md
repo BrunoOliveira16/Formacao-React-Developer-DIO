@@ -38,17 +38,17 @@ Formação React developer da trilha de Front-End da DIO.
     </tr>
     <tr>
         <td align="center">Visita na Feira</td>
-        <td align="center"><a href="#">Código</a></td>
+        <td align="center"><a href="https://github.com/BrunoOliveira16/Formacao-React-Developer-DIO/tree/main/TRILHA-REACT-MODULO-01/DESAFIO-DE-CODIGO/DESAFIO-DE-CODIGO-01">Código</a></td>
         <td align="center">✅</td>
     </tr>
     <tr>
         <td align="center">Tartarugas Ninja</td>
-        <td align="center"><a href="#">Código</a></td>
+        <td align="center"><a href="https://github.com/BrunoOliveira16/Formacao-React-Developer-DIO/tree/main/TRILHA-REACT-MODULO-01/DESAFIO-DE-CODIGO/DESAFIO-DE-CODIGO-02">Código</a></td>
         <td align="center">✅</td>
     </tr>
     <tr>
         <td align="center">Arrays Pares</td>
-        <td align="center"><a href="#">Código</a></td>
+        <td align="center"><a href="https://github.com/BrunoOliveira16/Formacao-React-Developer-DIO/tree/main/TRILHA-REACT-MODULO-01/DESAFIO-DE-CODIGO/DESAFIO-DE-CODIGO-03">Código</a></td>
         <td align="center">✅</td>
     </tr>
 </table>
