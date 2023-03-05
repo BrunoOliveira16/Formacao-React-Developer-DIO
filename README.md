@@ -56,5 +56,32 @@ Formação React developer da trilha de Front-End da DIO.
 
 <br>
 
+## ⭐ **Desafios de Projeto**
+
+<br>
+
+<table border=1>
+    <tr>
+        <th colspan="4" style="text-align:center"><b>FORMAÇÃO REACT DEVELOPER</b></th>
+    </tr>
+    <tr>
+        <th colspan="4" style="text-align:center">Desafios de Projeto</th>
+    </tr>
+    <tr>
+        <th style="text-align:center">Desafio</th>
+        <th style="text-align:center">Solução</th>
+        <th style="text-align:center">Deploy</th>
+        <th style="text-align:center">Status</th>
+    </tr>
+    <tr>
+        <td align="center">Construindo uma Calculadora com React</td>
+        <td align="center"><a href="https://github.com/BrunoOliveira16/calculadora-react">Código</a></td>
+        <td align="center"><a href="https://calculadora-projeto-react.netlify.app/">Link</a></td>
+        <td align="center">✅</td>
+    </tr>
+</table>
+
+<br>
+
 ## 🙋🏻‍♂️ Autor
 Bruno Oliveira
