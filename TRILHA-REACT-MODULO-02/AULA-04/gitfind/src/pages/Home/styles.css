@@ -46,6 +46,12 @@ button {
     font-size: 1rem;
     color: #999999;
     padding: .5rem;
+    transition: .5s;
+}
+
+button:hover {
+    cursor: pointer;
+    filter: contrast(1.5);
 }
 
 .perfil {
