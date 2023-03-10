@@ -12,7 +12,7 @@
     width: 100%;
     position: absolute;
     left: 0;
-    opacity: .3;
+    opacity: .5;
 }
 
 .info {
@@ -77,4 +77,11 @@ button {
 .perfil p {
     font-size: 1rem;
     margin: 1rem 0 0;
+}
+
+.repositorio {
+    font-size: 2rem;
+    color: rgb(153, 154, 156);
+    margin: 1rem 0;
+    text-align: center;
 }

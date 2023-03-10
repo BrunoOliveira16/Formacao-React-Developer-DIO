@@ -61,6 +61,12 @@ root.render(
 <br>
 
 ## ✅ Etapa 4: Requisições com Fetch
+Para a requisição via api do github, foi utilizado os endpoints abaixo:
+```
+https://api.github.com/users/BrunoOliveira16
+
+https://api.github.com/users/BrunoOliveira16/repos
+```
 
 <br>
 

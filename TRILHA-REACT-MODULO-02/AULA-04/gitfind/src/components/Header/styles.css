@@ -1,7 +1,8 @@
 header {
     width: 100%;
     height: 3.25rem;
-    background-color: #2d333b;
+    /*background-color: #2d333b;*/
+    background-color: rgb(153, 154, 156);
 
     display: flex;
     align-items: center;
@@ -13,3 +14,4 @@ h1 {
     font-size: 2rem;
     color: #ffffff;
 }
+
