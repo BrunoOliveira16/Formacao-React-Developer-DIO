@@ -17,7 +17,9 @@ export const Wrapper = styled.div `
 `
 
 export const Column = styled.div `
-    flex: 1;
+    width: 50%;
+    display: flex;
+    justify-content: center;
 `
 
 export const Row = styled.div `
@@ -33,8 +35,7 @@ export const Title = styled.h2 `
     font-size: 2rem;
     font-weight: 700;
     font-style: normal;
-    line-height: 2.5rem
-    width: 20rem;
+    line-height: 2.5rem;
     margin-bottom: 1.25rem;
 
     color: #FFFFFF;
@@ -45,7 +46,7 @@ export const TitleLogin = styled.p `
     font-size: 2rem;
     font-weight: 700;
     font-style: normal;
-    line-height: 2.5rem
+    line-height: 2.5rem;
     margin-bottom: 1.25rem;
 `
 
@@ -54,26 +55,26 @@ export const SubtitleLogin = styled.p `
     font-size: 1.2rem;
     font-weight: 400;
     font-style: normal;
-    line-height: 1.5rem
+    line-height: 1.5rem;
     margin-bottom: 2.2rem;
 `
 
 export const EsqueciText = styled.p `
     font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 700;
     font-style: normal;
-    line-height: 1.5rem
+    line-height: 1.5rem;
 
     color: #E5E044;
 `
 
 export const CriarText = styled.p `
     font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 700;
     font-style: normal;
-    line-height: 1.5rem
+    line-height: 1.5rem;
 
     color: #E23DD7;
 `
