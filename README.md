@@ -6,7 +6,7 @@ Formação React developer da trilha de Front-End da DIO.
 
 - Carga horária: 34h
 - Desafios de Projeto: 5
-- Desafios de Código: 10
+- Desafios de Código: 6
 
 <br>
 
@@ -53,6 +53,36 @@ Formação React developer da trilha de Front-End da DIO.
     </tr>
 </table>
 
+<table border=1>
+    <tr>
+        <th colspan="3" style="text-align:center"><b>FORMAÇÃO REACT DEVELOPER II</b></th>
+    </tr>
+    <tr>
+        <th colspan="3" style="text-align:center">Desafios de Código Básico</th>
+    </tr>
+    <tr>
+        <th style="text-align:center">Desafio</th>
+        <th style="text-align:center">Solução</th>
+        <th style="text-align:center">Status</th>
+    </tr>
+    <tr>
+        <td align="center">Tuitando</td>
+        <td align="center"><a href="https://github.com/BrunoOliveira16/Formacao-React-Developer-DIO/tree/main/TRILHA-REACT-MODULO-02/DESAFIO-DE-CODIGO/DESAFIO-DE-CODIGO-01">Código</a></td>
+        <td align="center">✅</td>
+    </tr>
+    <tr>
+        <td align="center">Patinhos</td>
+        <td align="center"><a href="https://github.com/BrunoOliveira16/Formacao-React-Developer-DIO/tree/main/TRILHA-REACT-MODULO-02/DESAFIO-DE-CODIGO/DESAFIO-DE-CODIGO-02">Código</a></td>
+        <td align="center">✅</td>
+    </tr>
+    <tr>
+        <td align="center">Validação de Nota</td>
+        <td align="center"><a href="https://github.com/BrunoOliveira16/Formacao-React-Developer-DIO/tree/main/TRILHA-REACT-MODULO-02/DESAFIO-DE-CODIGO/DESAFIO-DE-CODIGO-03">Código</a></td>
+        <td align="center">✅</td>
+    </tr>
+    
+</table>
+
 
 <br>
 
@@ -77,6 +107,12 @@ Formação React developer da trilha de Front-End da DIO.
         <td align="center">Construindo uma Calculadora com React</td>
         <td align="center"><a href="https://github.com/BrunoOliveira16/calculadora-react">Código</a></td>
         <td align="center"><a href="https://calculadora-projeto-react.netlify.app/">Link</a></td>
+        <td align="center">✅</td>
+    </tr>
+    <tr>
+        <td align="center">Criando uma Wiki de Repositórios do GitHub com React</td>
+        <td align="center"><a href="https://github.com/BrunoOliveira16/github-wiki">Código</a></td>
+        <td align="center"><a href="https://wiki-repository-github.netlify.app/">Link</a></td>
         <td align="center">✅</td>
     </tr>
 </table>
