@@ -3,10 +3,10 @@ import styled from "styled-components";
 export const Container = styled.div `
     width: 100%;
     min-width: 80%;
-    height: 47px;
+    height: 3rem;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 0 auto;
 `
@@ -15,7 +15,7 @@ export const Row = styled.div `
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 12px;
+    gap: .75rem;
 `
 
 export const Column = styled.div `
@@ -31,15 +31,15 @@ export const Wrapper = styled.div `
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px 0;
+    padding: 5px;
 `
 
 export const BuscarInputContainer = styled.div `
-    width: 175px;
-    height: 30px;
+    width: 11rem;
+    height: 2rem;
     background: #2D2D37;
     border-radius: 8px;
-    padding: 2px 5px;
+    padding: 4px 10px;
     margin: 0 auto;
 
     display: flex;
@@ -48,30 +48,30 @@ export const BuscarInputContainer = styled.div `
 `
 
 export const Menu = styled.a `
-    font-familt: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-size: 1.2rem;
-    line-height: 25px;
+    line-height: 1.5rem
     color: #FFFFFF;
-    margin-right: 12px;
+    margin-right: .75rem;
     text-decoration: none;
 `
 
 export const MenuRight = styled.a `
-    font-familt: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-size: 1.2rem;
-    line-height: 25px;
+    line-height: 1.6rem;
     color: #FFFFFF;
-    margin-right: 12px;
+    margin-right: .75rem;
     text-decoration: none;
 `
 
 export const UserPicture = styled.img `
-    width: 32px;
-    height: 32px;
+    width: 2rem;
+    height: 2rem;
     border: 2px solid #FFFFFF;
-    border-radius: 22px;
+    border-radius: 1.375rem;
 `
 
 export const Input = styled.input `

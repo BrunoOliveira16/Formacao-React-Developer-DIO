@@ -3,7 +3,7 @@ import styled, { css } from "styled-components";
 export const ButtonContainer = styled.button `
     background: #565656;
     border: 0;
-    border-radius: 22px;
+    border-radius: 1.25rem;
     position: relative;
 
     color: #FFFFFF;
@@ -15,9 +15,14 @@ export const ButtonContainer = styled.button `
 
     ${({variant}) => variant !== "primary" && css `
         min-width: 167px;
-        height: 33px;
-        
+        height: 2rem;
         background: #E4105D;
+        transition: .3s;
+
+        &:hover {
+            opacity: .8;
+            cursor: pointer;
+        }
 
         &::after {
             content: "";
@@ -27,7 +32,7 @@ export const ButtonContainer = styled.button `
             left: -6px;
             width: calc(100% + 10px);
             height: calc(100% + 10px);
-            border-radius: 22px;
+            border-radius: 1.25rem;
         }
     `}
 `

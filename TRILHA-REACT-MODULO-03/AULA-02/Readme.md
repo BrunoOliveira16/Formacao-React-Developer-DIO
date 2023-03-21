@@ -37,6 +37,10 @@ yarn add styled-components
 
 ## ✅ **Etapa 3: Conhecendo aplicação e construindo componentes**
 
+Para utilizar o react icons, execute o comando abaixo no terminal:
+```
+npm install react-icons --save
+```
 
 <br>
 
