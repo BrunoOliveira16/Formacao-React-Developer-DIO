@@ -45,17 +45,17 @@ npm install react-icons --save
 <br>
 
 ## ✅ **Etapa 4: Criando tela home**
-
+Verificar projeto ```app-styled-components```
 
 <br>
 
 ## ✅ **Etapa 5: Criando tela login**
-
+Verificar projeto ```app-styled-components```
 
 <br>
 
 ## ✅ **Etapa 6: Criando tela de usuário logado.**
-
+Verificar projeto ```app-styled-components```
 
 <br>
 
