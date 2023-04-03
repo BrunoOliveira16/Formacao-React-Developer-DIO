@@ -36,7 +36,7 @@ const Header = ({autenticado}) => {
                     </>
                 ) : (
                     <>
-                        <MenuRight href="$">Home</MenuRight>
+                        <MenuRight href="/">Home</MenuRight>
                         <Button title="Entrar"/>
                         <Button title="Cadastrar"/>
                     </>

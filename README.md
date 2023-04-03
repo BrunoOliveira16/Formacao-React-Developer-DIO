@@ -115,6 +115,12 @@ Formação React developer da trilha de Front-End da DIO.
         <td align="center"><a href="https://wiki-repository-github.netlify.app/">Link</a></td>
         <td align="center">✅</td>
     </tr>
+    <tr>
+        <td align="center">Desenvolvendo tela de cadastro da DIO com React</td>
+        <td align="center"><a href="https://github.com/BrunoOliveira16/pagina-login-dio">Código</a></td>
+        <td align="center"><a href="https://clone-pagina-dio.netlify.app/">Link</a></td>
+        <td align="center">✅</td>
+    </tr>
 </table>
 
 <br>
