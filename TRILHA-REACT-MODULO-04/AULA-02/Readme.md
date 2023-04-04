@@ -34,6 +34,13 @@ Para istalar o types do styled-components, digite o comando abaixo:
 npm install --save-dev @types/styled-components
 ```
 
+- Para criarmos tipagem global criamos uma pasta com o nome: @types;
+
+- Utilizamos a extensão .ts e .tsx para arquivos dos TypeScript;
+
+- Realizamos as configurações do TypeScript no arquivo tsconfig.json;
+
+
 <br>
 
 > Todo o projeto convertido para TS se encontra na pasta ```app-tela-login-dio-ts```.
