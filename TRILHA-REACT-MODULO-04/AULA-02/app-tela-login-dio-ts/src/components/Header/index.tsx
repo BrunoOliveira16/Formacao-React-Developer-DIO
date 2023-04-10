@@ -1,7 +1,7 @@
 import { Button } from '../Button';
-import logo from '../../assets/logo.svg';
 import { GoSearch } from 'react-icons/go';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { useAuth } from '../../hooks/useAuth';
 
 import { 
     Container, 
@@ -13,12 +13,16 @@ import {
     MenuHighLight,
     UserPicture,
     Input,
-    IconContainer
+    IconContainer,
+    Logout
 } from './styles';
-import { IHeader } from './types';
+import logo from '../../assets/logo.svg';
 
 
-const Header = ({autenticado}: IHeader) => {
+const Header = () => {
+
+    const { user, handleSignOut } = useAuth();
+
     const navigate = useNavigate();
 
     const handleClickHome = () => {
@@ -35,8 +39,10 @@ const Header = ({autenticado}: IHeader) => {
     <Wrapper>
         <Container>
             <Row>
-                <img src={ logo } alt="Logo da DIO" />
-                {autenticado ? (
+                <Link to="/">
+                    <img src={ logo } alt="Logo da DIO" />
+                </Link>
+                {user.id ? (
                     <>
                         <BuscarInputContainer>
                         <IconContainer>
@@ -55,9 +61,10 @@ const Header = ({autenticado}: IHeader) => {
                 
             </Row>
             <Row>
-                {autenticado ? (
+                {user.id ? (
                     <>
-                        <UserPicture src="https://avatars.githubusercontent.com/u/103857382?v=4" />
+                        <UserPicture src="https://avatars.githubusercontent.com/u/103857382?v=4" />{" "}
+                        <Logout onClick={handleSignOut}>Sair</Logout>
                     </>
                 ) : (
                     <>

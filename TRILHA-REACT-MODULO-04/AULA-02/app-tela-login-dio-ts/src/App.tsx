@@ -1,6 +1,7 @@
 import { Home } from './pages/home';
 import { Login } from './pages/login';
 import { Feed } from './pages/feed';
+import { AuthContextProvider } from './context/auth';
 
 import { 
   BrowserRouter, 
@@ -8,16 +9,18 @@ import {
   Route 
 } from 'react-router-dom';
 
+
 function App() {
-  return (<>
+  return (
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/feed" element={<Feed />} />
-        </Routes>
-      </BrowserRouter>
-    </>
+        <AuthContextProvider>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/feed" element={<Feed />} />
+          </Routes>
+        </AuthContextProvider>
+      </BrowserRouter>     
   );
 }
 

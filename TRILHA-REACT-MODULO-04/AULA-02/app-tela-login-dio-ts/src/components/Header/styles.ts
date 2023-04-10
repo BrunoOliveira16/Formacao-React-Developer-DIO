@@ -102,6 +102,7 @@ export const UserPicture = styled.img `
     height: 3rem;
     border: 2px solid #FFFFFF;
     border-radius: 1.375rem;
+    margin-right: 1rem;
 `
 
 export const Input = styled.input `
@@ -120,4 +121,19 @@ export const Input = styled.input `
 export const IconContainer = styled.div `
     margin-right: .7rem;
     color: #FFFFFF;
+`
+
+export const Logout = styled.a `
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.5rem
+    color: #FFFFFF;
+    text-decoration: none;
+
+    &:hover {
+        cursor: pointer;
+        color: rgb(164, 77, 218);
+    }
 `

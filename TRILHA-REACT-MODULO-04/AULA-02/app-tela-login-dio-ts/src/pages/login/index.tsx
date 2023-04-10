@@ -1,8 +1,8 @@
-import { useNavigate } from "react-router-dom";
-import { get, useForm } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from "yup";
 import { MdEmail, MdLock } from 'react-icons/md';
+import { useAuth } from "../../hooks/useAuth";
 import { Header } from '../../components/Header';
 import { Button } from '../../components/Button';
 import { Input } from '../../components/Input'; 
@@ -20,7 +20,6 @@ import {
 } from './styles';
 import { IFormData } from "./types";
 
-
 const schema = yup
   .object({
     email: yup
@@ -35,24 +34,15 @@ const schema = yup
   .required();
 
 const Login = () => {
-  const navigate = useNavigate();
+  const { handleLogin } = useAuth();
 
   const { control, handleSubmit, formState: { errors } } = useForm<IFormData>({
     resolver: yupResolver(schema),
     mode: 'onChange'
   });
 
-  const onSubmit = async (FormData: IFormData) => {
-    try{
-      const { data } = await get(`users?email=${FormData.email}&senha=${FormData.password}`);
-      if(data.length === 1) {
-        navigate('/feed')
-      } else {
-        alert('Email ou senha inválida')
-      }
-    }catch {
-      alert('Houve um erro, tente novamente.')
-    }
+  const onSubmit = async (formData: IFormData) => {
+    handleLogin(formData);
   };
 
   return (<>
