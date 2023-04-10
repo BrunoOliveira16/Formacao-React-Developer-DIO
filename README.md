@@ -121,6 +121,12 @@ Formação React developer da trilha de Front-End da DIO.
         <td align="center"><a href="https://clone-pagina-dio.netlify.app/">Link</a></td>
         <td align="center">✅</td>
     </tr>
+    <tr>
+        <td align="center">Implementando Uma Tela de Login Com Validação Usando TypeScript</td>
+        <td align="center"><a href="https://github.com/BrunoOliveira16/tela-login-ts">Código</a></td>
+        <td align="center"><a href="https://tela-login-ts.netlify.app/">Link</a></td>
+        <td align="center">✅</td>
+    </tr>
 </table>
 
 <br>
